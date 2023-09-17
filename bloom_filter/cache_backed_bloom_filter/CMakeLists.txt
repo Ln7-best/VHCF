@@ -1,0 +1,3 @@
+add_library(cache_backed_bloom_filter STATIC "cache_backed_bloom_filter.h")
+target_link_libraries(cache_backed_bloom_filter "bloom_filter" "hash_table")
+set_target_properties(cache_backed_bloom_filter PROPERTIES LINKER_LANGUAGE CXX)

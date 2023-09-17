@@ -1,0 +1,1 @@
+add_executable(main "throughput_test_insert_and_delete.cpp" "bitsutil.h" "cuckoofilter.h" "debug.h" "hashutil.h" "singletable.h" "utils.cpp" "utils.h" "crc64.h" "crc64.cpp" "zipfian_generator.h" "generator.h" "scrambled_zipfian_generator.h" "precompute.h" "precompute.cpp")
